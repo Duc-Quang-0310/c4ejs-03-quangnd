@@ -1,0 +1,27 @@
+Bài 1
+1. What are ​var​ and ​const​ in JavaScript? 
+- var và const đều là biến
+
+2. What are the differences between ​let​ and ​var​? 
+- Điều khác biệt cơ bản là let và var khác nhau ở phạm vi hoạt động của biến : 
+nếu có đóng mở ngoặc thì biến let chỉ tồn tại trong scope còn đâu biến var 
+tồn tại ngoài phạm vi của scope đó
+
+3. What are the differences between ​let​ and ​const​? 
+- Điều khác biệt là : let và const khác nhau ở giá trị của biến : ở biến let giá
+trị sau này có thể bị thay đổi , còn ở const giá trị của biến này sẽ không thể cập
+nhật được.Let có thể khai báo lại còn const thì không 
+
+4. What to use in what cases? 
+- Biến const : khiến bạn có thể tự tin hơn , và chắc chắn giá trị đó vào tương lai
+bạn không muốn thay đổi 
+- Biến var: nếu bạn muốn biến này có thể phạm vi rộng thì hãy sử dụng; nếu bạn muốn 
+thay đổi biến trong cùng 1 scope mà k bị error thì hãy dùng var
+
+
+Bài 2
+1. What is ​Boolean​? 
+- Là loại dữ liệu chỉ có 2 giá trị là ĐÚNG và SAI
+2. What results in ​Boolean​?  
+- Kết quả của một Boolean sinh ra một Boolean mới
+- Kết quả boolean là phép so sánh
