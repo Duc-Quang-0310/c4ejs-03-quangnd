@@ -1,0 +1,19 @@
+Câu 1
+      Trong những trường hợp dưới đây,bạn sẽ nhận được lỗi "SyntaxError" bảo rằng tên bạn đặt cho biến không phù hợp là:
+   - Thứ nhất : Nếu bạn bắt đầu tên biến bằng Một chữ số 
+   - Thứ hai : Bạn đặt tên biến trùng với các keywords của javascript
+   - Thứ ba : Bạn đặt tên biến có chứa những ký tự đặc biệt ( ngoại trừ 2 ký tự $ và _ )
+      Một vài tên biến không hợp lệ : 1975Cmtt ; @yahoo ; yield
+
+      Có thể kiểm tra các loại biến thông qua : dấu của chúng 
+   + biến dạng number sẽ không có dấu "" hay là ''
+   + biến dạng string sẽ được khai báo khi có "" hoặc là '' , `
+ 
+
+Câu 2
+      1-b
+      2-d
+      3-e
+      4-c-a
+    
+                  
