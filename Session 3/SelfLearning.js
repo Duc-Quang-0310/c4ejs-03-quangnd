@@ -38,3 +38,18 @@
    // alert("Paii Paiiiii")
 //}
 
+//let footballPlayer = ["Ronaldo","Messi","Neymar"];
+//console.log(footballPlayer);
+//let newFootballPlayer = prompt("Ban co muon nhap them cau thu bong da nao khong (Yes-No)");
+//if(newFootballPlayer=="Yes"){
+   //let deleteNewfootballplayer = Number(prompt("Ban muon xoa sieu sao nao??? ( 0 la ronaldo;1 la Messi ;2 la Neymar)"));
+   //footballPlayer.splice(deleteNewfootballplayer);
+   //for ( let i = 0; i<footballPlayer.length;i++){
+     // console.log(footballPlayer[i]);
+   //}
+
+//}else{
+   //alert("paiii see you again");
+
+//}
+
