@@ -9,6 +9,7 @@ let dictionary ={
 alert('Hi there,this is dev dictionary');
 let enterWord = prompt('Enter a keyword');
 let checkWord = dictionary[enterWord];
+while( true)
 if(!checkWord){
     alert( 'we could not find your word : ' );
     let addWord = prompt('We could not find your word leave your explaination');
@@ -16,7 +17,9 @@ if(!checkWord){
     let enterWord = prompt('Enter a keyword');
     dictionary[enterWord] = addWord;
     alert(enterWord + ':' + dictionary[enterWord]);
+    break ;
 }else{
     alert (enterWord + ':' + checkWord);
+    
 }
 

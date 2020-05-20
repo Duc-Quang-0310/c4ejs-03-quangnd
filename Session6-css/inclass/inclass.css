@@ -1,0 +1,37 @@
+/* p {
+    color: red;
+}
+
+#secondSeason {
+    background-color: #00ff00 ;
+}
+
+.number {
+    font-size: 24px;
+}
+
+div {
+    font-size: 3em;
+    background: wheat
+}
+
+#div2 {
+    color: blue;
+}
+
+[href  ]{
+    color : yellow;
+}
+
+ul > li {
+    font-weight: bold;
+} */
+
+.item > span {
+    font-size: 18px;
+}
+
+.item > div > span {
+    font-style: italic;
+}
+

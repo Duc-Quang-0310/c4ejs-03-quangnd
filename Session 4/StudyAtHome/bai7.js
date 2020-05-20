@@ -145,20 +145,21 @@ product1['Providers'] = 'Phukienzero-Dientuccc';
 product2['Providers'] = 'tgdd-ddghn-vhstore';
 product3['Providers'] = 'tgdd';
 product4['Providers'] = 'tgdd';
-for (let i=0;i<products.length;i++){
-    console.log('#'+ [i+1] +products[i].name);
-    console.log(products[i].price);
-    console.log(products[i].Providers);
+// for (let i=0;i<products.length;i++){
+//     console.log('#'+ [i+1] +products[i].name);
+//     console.log(products[i].price);
+//     console.log(products[i].Providers);
+// }
+
+// let enterCategory = String(prompt("Enter a category"));
+for(let j=0;j<products.length;j++){
+    
 }
 
-let find = product1.price;
-console.log(find)
-console.log(products.indexOf(product1.price))
-// let searching = prompt('Enter provider')
-// for( let j=0; j<products.length;j++){
-//     if( products.indexOf(products[j].providers) == searching ){
-//         console.log(products[j]);  
-//     }
-// }
+
+
+
+
+
 
 
