@@ -72,13 +72,35 @@
     /* border:1px solid black */
   /* } */
 
-  div{
+  /* div{
     width : 200px;
     height : 200px;
     font-size:2em;
     background:wheat;
     
   /* Insert code bellow   */
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   padding-left: 200px;
+  } */ 
+
+  div{
+    height: 500px;
+    width: 135px;
+    
+    
+  }
+  #firstDiv{
+    background-image: url(https://i.stack.imgur.com/22WR2.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+  }
+  #secondDiv{
+    background-image: url(https://i.stack.imgur.com/22WR2.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+  }
+  #thirdDiv{
+    background-image: url(https://i.stack.imgur.com/22WR2.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
   }
