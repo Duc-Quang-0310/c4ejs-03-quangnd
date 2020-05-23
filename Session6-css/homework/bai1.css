@@ -1,0 +1,17 @@
+.menu{
+    background-color: lightgreen;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+}
+span{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;    
+}
+span:hover{
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
