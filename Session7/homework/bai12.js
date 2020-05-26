@@ -32,7 +32,6 @@ addButton.addEventListener('click', ()=>{
 })
 removeButton.addEventListener('click', ()=>{
     
-    
 })
 
 
