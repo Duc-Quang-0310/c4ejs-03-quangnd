@@ -31,7 +31,9 @@ addButton.addEventListener('click', ()=>{
     
 })
 removeButton.addEventListener('click', ()=>{
-    
+    items.indexOf()
+    items.splice()
+    console.log(itemListUl);
 })
 
 
