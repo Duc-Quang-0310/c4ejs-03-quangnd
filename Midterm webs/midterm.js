@@ -2,6 +2,24 @@ const boldBtn = document.getElementById('boldButton');
 const italicBtn = document.getElementById('italicButton');
 const underlineBtn= document.getElementById('underlineButton');
 const output =document.getElementById('finalResult');
+const resetBtn =document.getElementById('resetButton')
+const userInput = document.getElementById("word");
+
+function bold (){
+    output.textContent = userInput.value;
+    output.style.fontWeight='bold';
+}
+function italic (){
+    output.textContent = userInput.value;
+    output.style.fontStyle = 'italic'
+}
+function underline (){
+    finalResult.textContent = userInput.value;
+    finalResult.style.textDecoration = 'underline';
+}
+boldBtn.addEventListener('click',bold);
+italicBtn.addEventListener('click',italic);
+underlineBtn.addEventListener('click',underline);
 
 
 const arrowImg =document.getElementById('arrow');
@@ -23,6 +41,8 @@ output.style.border ='solid 2px';
 output.style.width = '400px';
 output.style.marginRight = '150px';
 output.style.height ='300px';
+
+
 
 
 
