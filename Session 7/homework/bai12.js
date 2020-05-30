@@ -9,8 +9,9 @@ for(let i=0;i<items.length;i++){
 }
 const itemInput = document.getElementById('item_Input');
 console.log(itemInput);
+
 const addButton =document.getElementById('add_Button');
-console.log(addButton)
+console.log(addButton);
 
 //12.2-12.10 addButton.addEventListener('click', ()=>{
 //     const itemAdd = itemInput.value;   
@@ -23,16 +24,17 @@ const removeButton =document.getElementById('remove_Button');
 addButton.addEventListener('click', ()=>{
     const itemAdd = itemInput.value;   
     items[items.length] = itemInput.value;
-    itemListUl.insertAdjacentHTML("beforeend",`<li>${itemAdd}
+    itemListUl.insertAdjacentHTML("beforeend",`<li>${itemAdd};
     <span><button id="remove_Button">remove</button></span></li>`);
     console.log(itemListUl);
     const resetForm = document.getElementById('myForm');
-    resetForm.reset();
+    
     
 })
+
 removeButton.addEventListener('click', ()=>{
-    items.indexOf()
-    items.splice()
+    items.indexOf();
+    items.splice();
     console.log(itemListUl);
 })
 

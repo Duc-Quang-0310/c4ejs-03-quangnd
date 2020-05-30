@@ -48,15 +48,15 @@
     width: 500px;
   } */
 
-  /* div{
+  div{
     background: wheat;
     width:400px;
-    border: 2px solid green; */
-  /*  Insert code below  */
-    /* padding-left: 40px;
+    border: 2px solid green; 
+   /* Insert code below  */
+    padding-left: 40px;
     padding-right: 40px;
     padding-top: 45px;
-    padding-bottom: 45px; */
+    padding-bottom: 45px;
     
   /* } */
   /* #a >div {
@@ -83,24 +83,3 @@
   padding-left: 200px;
   } */ 
 
-  div{
-    height: 500px;
-    width: 135px;
-    
-    
-  }
-  #firstDiv{
-    background-image: url(https://i.stack.imgur.com/22WR2.png);
-    background-size: contain;
-    background-repeat: repeat-x;
-  }
-  #secondDiv{
-    background-image: url(https://i.stack.imgur.com/22WR2.png);
-    background-size: contain;
-    background-repeat: repeat-y;
-  }
-  #thirdDiv{
-    background-image: url(https://i.stack.imgur.com/22WR2.png); 
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
